@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "b9dec3fa-10bc-4e0e-8898-9fa6f33cf343",
+		"name": "auth_generic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Signin generic",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"database\": \"oowlish_test\",\n\t\"email\": \"test@test.com\",\n\t\"password\": \"12345\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://eeag4mweoe.execute-api.us-east-1.amazonaws.com/dev/signin",
+					"protocol": "https",
+					"host": [
+						"eeag4mweoe",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Signup generic",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"database\": \"oowlish_test\",\n\t\"email\": \"admin@admin.com\",\n\t\"password\": \"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://eeag4mweoe.execute-api.us-east-1.amazonaws.com/dev/signin",
+					"protocol": "https",
+					"host": [
+						"eeag4mweoe",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

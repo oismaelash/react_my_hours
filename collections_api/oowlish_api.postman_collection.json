@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "3280129d-dd5a-4d81-a1ca-b042911e2fe3",
+		"name": "oowlish_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test@test.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hp1v22z4ec.execute-api.us-east-1.amazonaws.com/dev/get-user",
+					"protocol": "https",
+					"host": [
+						"hp1v22z4ec",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"get-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test@test.com\",\n\t\"password\": \"123456\",\n\t\"amountHourPerMonth\": 0,\n\t\"timeLunchBreak\": 0,\n\t\"datetimes\": []\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hp1v22z4ec.execute-api.us-east-1.amazonaws.com/dev/update-user",
+					"protocol": "https",
+					"host": [
+						"hp1v22z4ec",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"update-user"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "baseUrl",
+			"key": "baseUrl",
+			"value": "https://hp1v22z4ec.execute-api.us-east-1.amazonaws.com/dev",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

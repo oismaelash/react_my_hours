@@ -35,7 +35,6 @@ password: 12345
 - [Node.js](https://nodejs.org/en/)
 
 #### DevOps development:
-- [GitLab](https://gitlab.com/)
 - [AWS Amplify](https://aws.amazon.com/amplify/?nc1=h_ls)
 
 #### Version control system:

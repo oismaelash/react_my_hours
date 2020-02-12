@@ -8,7 +8,7 @@ For development, you will only need Node.js installed on your environement.
 
 User for login authentication:
 email: test@test.com
-password: 12345
+password: 123456
 
 ## Start & watch local project
     

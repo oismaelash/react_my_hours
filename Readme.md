@@ -4,7 +4,7 @@
 
 For development, you will only need Node.js installed on your environement.
 
-## [View demo](https://develop.d2pbokuid1j01a.amplifyapp.com/)
+## [View demo](https://myhours.ismaelnascimento.com/)
 
 User for login authentication:
 email: test@test.com
